@@ -1,0 +1,21 @@
+<link rel="Stylesheet" href="style.css">
+<script src="script.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>dicerollz</title>
+<h1>Dice Roller</h1>
+</head>
+<body>
+<button onclick="d4set()" class="dice" id="4">D4</button>
+<button onclick="d6set()" class="dice" id="6">D6</button>
+<button onclick="d8set()" class="dice" id="8">D8</button>
+<button onclick="d10set()" class="dice" id="10">D10</button> 
+<button onclick="d12set()" class="dice" id="12">D12</button>
+<button onclick="d20set()" class="dice" id="20">D20</button>
+<p class="d" id="d"><span id="value">0</span></p>
+<button onclick="rolldice()" class="roll">roll</button>
+<p class="total">total:<span id="total">0</span></p>
+<button onclick="reset()" class="reset">reset</button>
+</body>
+</html>
